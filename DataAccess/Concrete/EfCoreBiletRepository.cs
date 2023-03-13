@@ -20,6 +20,7 @@ namespace DataAccess.Concrete
             }
         }
 
+
         public List<int> GetKoltuk(int guzergahId)
         {
             using (var context = new BiletContext())
